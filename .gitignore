@@ -1,0 +1,15 @@
+#.env
+
+.DS_Store
+
+php/vendor
+php/templates/cache/*
+
+*.lock
+*.xml
+*lock.json
+node_modules/
+
+*.code-workspace
+package.json
+*.sh
