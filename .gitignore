@@ -5,6 +5,9 @@
 php/vendor
 php/templates/cache/*
 
+db/init/*
+db/mysql/*
+
 *.lock
 *.xml
 *lock.json
