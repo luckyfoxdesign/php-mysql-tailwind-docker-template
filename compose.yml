@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
 
   mdb:
@@ -19,7 +17,7 @@ services:
     build: 
       context: ./php
       dockerfile: Dockerfile
-    container_name: php_badabooker_c
+    container_name: php_c
     ports: 
       - 80:80
     working_dir: /var/www/html/
